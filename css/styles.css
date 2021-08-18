@@ -4,6 +4,9 @@
 .link {
   text-decoration: none;
 }
+.current {
+  color: #2196f3;
+}
 :root {
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
@@ -581,13 +584,14 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  min-height: 528px;
-  min-width: 581px;
-  padding: 50px;
+  min-height: 581px;
+  min-width: 528px;
   border-radius: 4px;
   background-color: #fff;
 }
 .svg-close {
+  width: 11px;
+  height: 11px;
 }
 .modal-btn-svg {
   display: flex;
@@ -597,9 +601,10 @@ img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  margin-top: 7px;
-  margin-right: 7px;
-  margin-left: 500px;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-left: 490px;
+  background-color: #fff;
 }
 
 /*============ FOOTER END ============*/
@@ -657,9 +662,23 @@ img {
 .photo-a:hover .overlay {
   opacity: 1;
   transform: translateY(0);
+  transition: 0;
 }
 .div-card {
   position: relative;
+  overflow: hidden;
+}
+.text {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
 }
 .overlay {
   position: absolute;
