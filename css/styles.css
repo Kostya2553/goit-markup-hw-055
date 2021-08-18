@@ -10,9 +10,6 @@
 .link {
   text-decoration: none;
 }
-.current {
-  color: var(--accent-color);
-}
 
 h1,
 h2,
@@ -115,6 +112,9 @@ img {
 }
 .menu-link:hover::after {
   opacity: 1;
+}
+.current {
+  color: var(--accent-color);
 }
 .contact-link-adres {
   display: flex;
