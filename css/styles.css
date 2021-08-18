@@ -87,19 +87,18 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  transition: var(--cubic-bezier);
+  transition: 250ms var(--cubic-bezier);
   padding-bottom: 30px;
-}
-.menu-link:nth-last-child(1) {
   margin-right: 50px;
 }
+
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
 }
 .menu-link::after {
   display: block;
-  content: '';
+  content: ' ';
   position: absolute;
   left: 0;
   bottom: 0;
